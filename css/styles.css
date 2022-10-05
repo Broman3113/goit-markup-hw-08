@@ -117,16 +117,21 @@ body{
     border-radius: 4px;
     font-weight: 700;
     line-height: 1.875;
+    letter-spacing: 0.06em;
     cursor: pointer;
 }
 .header .hero-content .order-service:hover{
     background-color: #188CE8;
 }
 
+.section{
+    padding: 94px 0;
+}
+
 
 /* Advantages section */
-.advantages{
-    padding: 94px 0;
+.advantages {
+    padding-bottom: 0;
 }
 .advantages .advantages-title{
     visibility: hidden;
@@ -147,7 +152,7 @@ body{
     text-transform: uppercase;
 }
 .advantages .advantage .advantage-text{
-    margin: 0 0 10px 0;
+    margin: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
@@ -156,9 +161,7 @@ body{
 }
 
 /* Business section */
-.business{
-    margin-bottom: 94px;
-}
+
 .business-title{
     font-weight: 700;
     font-size: 36px;
@@ -175,7 +178,6 @@ body{
 
 /* Team section */
 .team{
-    padding: 94px 0;
     background-color: var(--bg-grey);
 }
 .team-title{
@@ -256,9 +258,6 @@ body{
 
 /* Portfolio */
 
-.portfolio{
-    padding: 94px 0;
-}
 .portfolio-title{
     visibility: hidden;
     height: 0;
@@ -301,17 +300,22 @@ body{
     display: grid;
     grid-template-columns: repeat(3, minmax(370px, 1fr));
     gap: 30px;
+    box-sizing: content-box;
 }
-.portfolio .projects-list-item{
-    border: 1px solid var(--bg-grey);
+
+.portfolio .projects-list-item .project-image{
+    display: block;
 }
+
+
 .portfolio .item-description{
     padding: 20px 24px;
+    border: 1px solid var(--bg-grey);
 }
 .portfolio .project-title{
     font-weight: 700;
     font-size: 18px;
-    line-height: 2;
+    line-height: 36px;
     letter-spacing: 0.06em;
     margin: 0 0 4px 0;
 }
