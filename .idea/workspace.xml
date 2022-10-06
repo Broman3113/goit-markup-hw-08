@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b52baa72-d123-400d-8edb-575fa8899e0e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/modern-normalize.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/goit-markup-hw-02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/goit-markup-hw-03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hero-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/svg-sprites/symbol-defs.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -31,10 +30,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "last_opened_file_path": "F:/A/Frontend/React/goit-markup-hw-04/images/svg-sprites",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\A\Frontend\React\goit-markup-hw-04\images\svg-sprites" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\A\Frontend\React\goit-markup-hw-04\images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,6 +52,9 @@
       <option name="presentableId" value="Default" />
       <updated>1664973034366</updated>
       <workItem from="1664973035610" duration="2056000" />
+      <workItem from="1664976269658" duration="1781000" />
+      <workItem from="1665045148624" duration="616000" />
+      <workItem from="1665045783882" duration="11965000" />
     </task>
     <servers />
   </component>

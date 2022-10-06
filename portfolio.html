@@ -25,12 +25,19 @@
                 </ul>
             </nav>
             <ul class="contact-links">
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a class="contact-link" href="mailto:info@devstudio.com">
+                    <svg class="contact-link-icon">
+                        <use href="images/svg-sprites/symbol-defs.svg#icon-envelope"></use>
+                    </svg>
+                    info@devstudio.com</a></li>
+                <li><a class="contact-link" href="tel:+380961111111">
+                    <svg class="contact-link-icon">
+                        <use href="images/svg-sprites/symbol-defs.svg#icon-smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11</a></li>
             </ul>
         </div>
     </div>
-    <hr class="divider">
 </header>
 <main>
     <section class="section portfolio">
@@ -38,7 +45,7 @@
             <h1 class="portfolio-title">Список проектів</h1>
             <ul class="filter-buttons-list">
                 <li class="filter-button-list-item">
-                    <button class="filter-button btn-active" type="button" active>Усі</button>
+                    <button class="filter-button btn-active" type="button">Усі</button>
                 </li>
                 <li class="filter-button-list-item">
                     <button class="filter-button" type="button">Веб-сайти</button>
@@ -55,11 +62,13 @@
             </ul>
             <ul class="projects-list">
                 <li class="projects-list-item">
+                    <a href="#">
                         <img class="project-image" src="./images/project/project1.jpg" alt="Технокряк Веб-сайт">
-                    <div class="item-description">
-                        <h2 class="project-title">Технокряк</h2>
-                        <p class="project-text">Веб-сайт</p>
-                    </div>
+                        <div class="item-description">
+                            <h2 class="project-title">Технокряк</h2>
+                            <p class="project-text">Веб-сайт</p>
+                        </div>
+                    </a>
                 </li>
                 <li class="projects-list-item">
                         <img class="project-image" src="./images/project/project2.jpg" alt="Постер New Orlean vs Golden Star Дизайн">
@@ -135,6 +144,31 @@
                     <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </address>
+        </div>
+        <div class="social-links-wrapper">
+            <p class="social-links-wrapper-title">Приєднуйтесь</p>
+            <ul class="social-links">
+                <li><a class="social-link" href="#">
+                    <svg class="social-icon">
+                        <use href="./images/svg-sprites/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                </a></li>
+                <li><a class="social-link" href="#">
+                    <svg class="social-icon">
+                        <use href="./images/svg-sprites/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                </a></li>
+                <li><a class="social-link" href="#">
+                    <svg class="social-icon">
+                        <use href="./images/svg-sprites/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                </a></li>
+                <li><a class="social-link" href="#">
+                    <svg class="social-icon">
+                        <use href="./images/svg-sprites/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                </a></li>
+            </ul>
         </div>
     </div>
 </footer>
