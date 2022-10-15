@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b52baa72-d123-400d-8edb-575fa8899e0e" name="Changes" comment="">
+    <list default="true" id="b52baa72-d123-400d-8edb-575fa8899e0e" name="Changes" comment="Complete lesson 5">
+      <change afterPath="$PROJECT_DIR$/js/modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/svg-sprites/symbol-defs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg-sprites/symbol-defs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +41,7 @@
       <recent name="F:\A\Frontend\React\goit-markup-hw-04\images\svg-sprites" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\A\Frontend\React\goit-markup-hw-05\images\svg-sprites" />
       <recent name="F:\A\Frontend\React\goit-markup-hw-04\images" />
     </key>
   </component>
@@ -53,10 +58,28 @@
       <workItem from="1665045148624" duration="616000" />
       <workItem from="1665045783882" duration="12207000" />
       <workItem from="1665076051924" duration="142000" />
+      <workItem from="1665649573308" duration="640000" />
+      <workItem from="1665670273331" duration="1319000" />
+      <workItem from="1665741598753" duration="13230000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Complete lesson 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete lesson 5" />
   </component>
 </project>

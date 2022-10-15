@@ -43,7 +43,7 @@
         <div class="container">
             <div class="hero-content">
                 <h1 class="studio-title">Ефективні рішення для вашого бізнесу</h1>
-                <button class="order-service" type="button">Замовити послугу</button>
+                <button class="order-service" type="button" data-modal-open>Замовити послугу</button>
             </div>
         </div>
     </div>
@@ -274,7 +274,8 @@
             </a>
             <address>
                 <ul class="contact-links">
-                    <li><a class="map-link" href="https://goo.gl/maps/RT12ETmisq8KWsH39">м. Київ, пр-т Лесі Українки, 26</a></li>
+                    <li><a class="map-link" href="https://goo.gl/maps/RT12ETmisq8KWsH39">м. Київ, пр-т Лесі Українки,
+                        26</a></li>
                     <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
@@ -307,5 +308,18 @@
         </div>
     </div>
 </footer>
+
+<div class="modal service-modal is-hidden" data-modal>
+    <div class="modal-content">
+        <button class="close-btn" type="button" data-modal-close>
+            <svg class="close-btn-icon">
+                <use href="./images/svg-sprites/symbol-defs.svg#icon-cross"></use>
+            </svg>
+        </button>
+    </div>
+</div>
+
+
+<script src="./js/modal.js"></script>
 </body>
 </html>
