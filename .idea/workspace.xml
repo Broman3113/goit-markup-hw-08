@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b52baa72-d123-400d-8edb-575fa8899e0e" name="Changes" comment="Complete lesson 5">
-      <change afterPath="$PROJECT_DIR$/js/modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg-sprites/symbol-defs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg-sprites/symbol-defs.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +56,16 @@
       <workItem from="1665076051924" duration="142000" />
       <workItem from="1665649573308" duration="640000" />
       <workItem from="1665670273331" duration="1319000" />
-      <workItem from="1665741598753" duration="13230000" />
+      <workItem from="1665741598753" duration="13721000" />
     </task>
+    <task id="LOCAL-00001" summary="Complete lesson 5">
+      <created>1665830522008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665830522008</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
