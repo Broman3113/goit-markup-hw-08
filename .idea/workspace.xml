@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b52baa72-d123-400d-8edb-575fa8899e0e" name="Changes" comment="Complete lesson 5">
+    <list default="true" id="b52baa72-d123-400d-8edb-575fa8899e0e" name="Changes" comment="Complete lesson 6">
+      <change afterPath="$PROJECT_DIR$/images/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/svg-sprites/icons.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,8 @@
       <recent name="F:\A\Frontend\React\goit-markup-hw-04\images\svg-sprites" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\A\Frontend\React\goit-markup-hw-06\images\svg-sprites" />
+      <recent name="F:\A\Frontend\React\goit-markup-hw-06\images" />
       <recent name="F:\A\Frontend\React\goit-markup-hw-05\images\svg-sprites" />
       <recent name="F:\A\Frontend\React\goit-markup-hw-04\images" />
     </key>
@@ -57,6 +63,7 @@
       <workItem from="1665649573308" duration="640000" />
       <workItem from="1665670273331" duration="1319000" />
       <workItem from="1665741598753" duration="13721000" />
+      <workItem from="1665830929327" duration="21017000" />
     </task>
     <task id="LOCAL-00001" summary="Complete lesson 5">
       <created>1665830522008</created>
@@ -84,6 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Complete lesson 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete lesson 5" />
+    <MESSAGE value="Complete lesson 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete lesson 6" />
   </component>
 </project>
