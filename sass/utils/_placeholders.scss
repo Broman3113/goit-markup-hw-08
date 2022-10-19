@@ -1,0 +1,42 @@
+%link {
+    color: $text-primary;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.02em;
+    transition: color .25s cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        color: $color-active;
+    }
+}
+
+%list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+%flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%btn {
+    padding: 10px 32px;
+    color: $color-white;
+    border: none;
+    background-color: $bg-grey;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    transition: background-color .25s cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{
+        background-color: $bg-dark;
+    }
+}

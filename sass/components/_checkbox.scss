@@ -1,0 +1,27 @@
+.checkbox__icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-60%);
+    width: 16px;
+    height: 15px;
+    border: 2px solid $text-primary;
+    border-radius: 2px;
+    margin-right: 9px;
+    transition: background-color .25s cubic-bezier(0.4, 0, 0.2, 1), border-color .25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox__input {
+    &:checked~.checkbox__icon {
+        border-color: $color-active;
+        background-color: $color-active;
+        background-image: url("../images/check.svg");
+        background-size: contain;
+        background-origin: border-box;
+    }
+
+    &:focus~.checkbox__icon {
+        outline: 1px solid $color-active;
+        border-color: $color-active;
+    }
+}

@@ -1,0 +1,22 @@
+@import './utils/vars';
+@import './utils/placeholders';
+
+@import './base/normalize';
+@import './base/base-styles';
+@import './base/container';
+@import './components/contact-links-list';
+@import './components/visually-hidden';
+@import './components/logo';
+@import './components/btn';
+@import './components/section';
+@import './components/social-links';
+@import './components/filter';
+@import './components/overlay';
+
+@import './components/page-header';
+@import './components/upper-header';
+@import './components/nav';
+@import './components/projects-list';
+@import './components/email-subscription';
+@import './components/footer';
+

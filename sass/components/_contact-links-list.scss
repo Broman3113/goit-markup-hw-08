@@ -1,0 +1,12 @@
+.contact-links-list{
+    @extend %list;
+}
+.contact-links-list__link {
+    @extend %link;
+    color: $text-secondary;
+}
+.contact-links-list__icon{
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+}

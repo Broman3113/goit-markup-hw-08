@@ -1,0 +1,20 @@
+.hero{
+    padding: 200px 0;
+    background: url("../images/hero-bg.jpg") $bg-dark no-repeat center center/cover;
+    background-size: 1600px;
+}
+.hero__content{
+    @extend %flex-centered;
+    flex-direction: column;
+}
+.hero__title{
+    text-align: center;
+    color: $color-white;
+    margin: 0 0 30px 0;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 696px;
+}

@@ -1,0 +1,21 @@
+.terms-field{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+%terms-field__common-styles{
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: $text-secondary
+}
+.terms-field__label{
+    @extend %terms-field__common-styles;
+    position: relative;
+    padding-left: 20px;
+}
+.terms-field__link{
+    @extend %terms-field__common-styles;
+    color: $color-active;
+}

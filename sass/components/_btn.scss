@@ -1,0 +1,21 @@
+.btn{
+    @extend %btn;
+    color: $text-primary;
+}
+.btn--primary{
+    @extend %btn;
+    color: $color-white;
+    background-color: $color-active;
+    &:hover{
+        background-color: #188CE8;
+    }
+}
+.btn__icon{
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+}
+.btn__wrapper-block{
+    display: flex;
+    justify-content: center;
+}

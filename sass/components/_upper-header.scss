@@ -1,0 +1,22 @@
+.upper-header {
+    height: 80px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.upper-header__logo{
+    margin-right: 93px;
+}
+
+.upper-header__contact-links-list{
+    @extend %flex-centered;
+    margin: 0 0 0 auto;
+    gap: 30px;
+}
+.upper-header__icon{
+    margin-right: 10px;
+}
+.upper-header__link{
+    @extend %flex-centered;
+}

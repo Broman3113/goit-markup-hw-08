@@ -1,74 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b52baa72-d123-400d-8edb-575fa8899e0e" name="Changes" comment="Complete lesson 6">
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+    <list default="true" id="60e3760c-f907-4c1a-a5b6-2d9c573bb888" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/goit-markup-hw-03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modern-normalize.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FiRh8lWLR9Uy0iWwHU0NclQxoZ" />
+  <component name="ProjectId" id="2GIcI0os46hHaycboFr8Rh1AgQl" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/A/Frontend/React/goit-markup-hw-04/images/svg-sprites&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\A\Frontend\React\goit-markup-hw-04\images\svg-sprites" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\A\Frontend\React\goit-markup-hw-06\images\svg-sprites" />
-      <recent name="F:\A\Frontend\React\goit-markup-hw-06\images" />
-      <recent name="F:\A\Frontend\React\goit-markup-hw-05\images\svg-sprites" />
-      <recent name="F:\A\Frontend\React\goit-markup-hw-04\images" />
-    </key>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b52baa72-d123-400d-8edb-575fa8899e0e" name="Changes" comment="" />
-      <created>1664973034366</created>
+      <changelist id="60e3760c-f907-4c1a-a5b6-2d9c573bb888" name="Changes" comment="" />
+      <created>1666079456848</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664973034366</updated>
-      <workItem from="1664973035610" duration="2056000" />
-      <workItem from="1664976269658" duration="1781000" />
-      <workItem from="1665045148624" duration="616000" />
-      <workItem from="1665045783882" duration="12207000" />
-      <workItem from="1665076051924" duration="142000" />
-      <workItem from="1665649573308" duration="640000" />
-      <workItem from="1665670273331" duration="1319000" />
-      <workItem from="1665741598753" duration="13721000" />
-      <workItem from="1665830929327" duration="21017000" />
-      <workItem from="1666014357736" duration="285000" />
+      <updated>1666079456848</updated>
+      <workItem from="1666079458647" duration="20000" />
     </task>
-    <task id="LOCAL-00001" summary="Complete lesson 5">
-      <created>1665830522008</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1665830522008</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,10 +57,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Complete lesson 5" />
-    <MESSAGE value="Complete lesson 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete lesson 6" />
   </component>
 </project>

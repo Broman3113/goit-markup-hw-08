@@ -1,0 +1,26 @@
+.advantage__icon-wrapper{
+    width: 270px;
+    height: 120px;
+    @extend %flex-centered;
+    background-color: $btn-color;
+    margin-bottom: 30px;
+}
+.advantage__icon{
+    width: 70px;
+}
+.advantage__title{
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.advantage__text{
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: $text-secondary;
+}
