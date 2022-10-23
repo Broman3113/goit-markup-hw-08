@@ -1,21 +1,26 @@
 .nav {
-    display: inline-block;
-    height: 100%;
+    display: block;
 }
 
 .nav__list {
     @extend %list;
-    height: 100%;
     display: flex;
     align-items: center;
     gap: 50px;
+    height: 100%;
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+        align-items: start;
+
+    }
 }
 
 .nav__item {
     height: 100%;
 }
 
-%nav__link--underline {
+// Mixin isnead placeholder because of inability to use placeholders inside media
+@mixin nav__link--underline() {
     position: absolute;
     content: '';
     width: 100%;
@@ -34,17 +39,32 @@
     align-items: center;
     @extend %link;
 
-    &::after{
-        @extend %nav__link--underline;
-    }
-    &:hover::after {
-        opacity: 1;
-    }
-    &--active {
-        color: $color-active;
+    @media screen and (min-width: 768px) {
         &::after {
-            @extend %nav__link--underline;
+            @include nav__link--underline;
+        }
+
+        &:hover::after {
             opacity: 1;
         }
+    }
+
+    &--active {
+        color: $color-active;
+
+        @media screen and (min-width: 768px) {
+            &::after {
+                @include nav__link--underline;
+                opacity: 1;
+            }
+        }
+
+    }
+
+    @media screen and (max-width: 767px) {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 1.175;
+        letter-spacing: 0.02em;
     }
 }

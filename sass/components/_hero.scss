@@ -1,20 +1,46 @@
-.hero{
+.hero {
     padding: 200px 0;
-    background: url("../images/hero-bg.jpg") $bg-dark no-repeat center center/cover;
+    background: url("../images/hero-bg.jpg") $bg-dark no-repeat center center;
     background-size: 1600px;
+
+    @media screen and (max-width: 1199px) {
+        padding: 118px 0;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url("../images/@2x_hero-bg.jpg");
+    }
 }
-.hero__content{
+
+.hero__content {
     @extend %flex-centered;
     flex-direction: column;
 }
-.hero__title{
+
+.hero__title {
     text-align: center;
     color: $color-white;
-    margin: 0 0 30px 0;
+
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.363;
+    line-height: 1.36;
+    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    width: 696px;
+    max-width: 700px;
+    margin: 0 0 30px;
+
+
+
+    @media screen and (max-width: 1199px) {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        max-width: 360px;
+    }
 }

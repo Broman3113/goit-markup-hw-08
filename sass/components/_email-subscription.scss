@@ -20,7 +20,8 @@
         border: 1px solid $color-active;
     }
 }
-.email-subscription__title{
+
+.email-subscription__title {
     margin: 0 0 20px;
     font-weight: 700;
     font-size: 14px;
@@ -29,8 +30,15 @@
     text-transform: uppercase;
     color: $color-white;
 }
+
 .email-subscription__form-field {
     display: flex;
+
+    @media screen and (max-width: 1199px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 }
 
 .email-subscription__btn {

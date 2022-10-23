@@ -1,22 +1,38 @@
-.advantage__icon-wrapper{
-    width: 270px;
-    height: 120px;
+.advantage__icon-wrapper {
     @extend %flex-centered;
     background-color: $btn-color;
     margin-bottom: 30px;
 }
-.advantage__icon{
-    width: 70px;
+
+.advantage {
+    max-width: 450px;
+    @media screen and (min-width:768px) {
+        max-width: 354px;
+    }
+    @media screen and (min-width:1200px) {
+        max-width: 270px;
+    }
 }
-.advantage__title{
+
+.advantage__icon {
+    width: 70px;
+    height: 120px;
+}
+
+.advantage__title {
     margin: 0 0 10px 0;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
 }
-.advantage__text{
+
+.advantage__text {
     margin: 0;
     font-weight: 400;
     font-size: 14px;

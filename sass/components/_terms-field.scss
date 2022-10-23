@@ -1,21 +1,40 @@
-.terms-field{
+.terms-field {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
 }
-%terms-field__common-styles{
+
+%terms-field__common-styles {
     height: 100%;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: $text-secondary
 }
-.terms-field__label{
+
+.terms-field__label {
     @extend %terms-field__common-styles;
     position: relative;
     padding-left: 20px;
+    @media screen and (max-width: 1199px) {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+
+        letter-spacing: 0.03em;
+        padding-left: 25px;
+    }
 }
-.terms-field__link{
+
+.terms-field__link {
     @extend %terms-field__common-styles;
     color: $color-active;
+
+    @media screen and (max-width: 1199px) {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+
+        letter-spacing: 0.03em;
+    }
 }

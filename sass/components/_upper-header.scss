@@ -1,22 +1,134 @@
 .upper-header {
-    height: 80px;
     padding: 0;
+    position: relative;
+}
+
+.upper-header__content {
+
     display: flex;
+    justify-content: space-between;
     align-items: center;
+
+    &.is-open {
+        justify-content: end;
+
+        .upper-header__logo {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width:767px) {
+        height: 60px;
+    }
 }
 
-.upper-header__logo{
+.upper-header__logo {
     margin-right: 93px;
+    @media screen and (max-width: 1199px) {
+        margin: 0;   
+    }
 }
 
-.upper-header__contact-links-list{
+
+.upper-header__contact-links-list {
     @extend %flex-centered;
-    margin: 0 0 0 auto;
     gap: 30px;
+    align-items: start;
+
+    @media screen and (max-width: 767px) {
+        gap: 32px;
+        margin-bottom: 64px;
+    }
+
+    @media screen and (min-width: 768px) {
+        justify-content: center;
+        gap: 10px;
+        margin: 19px 0;
+        & .upper-header__link {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 1.166;
+            letter-spacing: 0.02em;
+        }
+    }
+    @media screen and (max-width: 1199px) {
+        flex-direction: column;
+    }
+    @media screen and (min-width: 1200px) {
+        margin: 32px 0;
+        gap: 30px;
+        & .upper-header__link{
+            font-size: 14px;
+            line-height: 1.1428;
+        }
+    }
 }
-.upper-header__icon{
+
+
+
+.upper-header__social-links-list {
+    display: none;
+
+    @media screen and (max-width:767px) {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        & li {
+            &:not(:last-child) {
+                border-right: 1px solid rgba(33, 33, 33, 0.2);
+            }
+        }
+    }
+}
+
+.upper-header__social-links-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: $color-active;
+    padding-right: 10px;
+
+    &:not(:last-child) {
+        border-right: 1px solid rgba(33, 33, 33, 0.2);
+    }
+}
+
+.upper-header__icon {
     margin-right: 10px;
+
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
 }
-.upper-header__link{
+
+.upper-header__link {
     @extend %flex-centered;
+
+    @media screen and (max-width: 767px) {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.166;
+        letter-spacing: 0.02em;
+    }
+}
+
+.upper-header__phone-item {
+    @media screen and (max-width: 767px) {
+        order: -1;
+
+        & .upper-header__link {
+            font-weight: 500;
+            font-size: 34px !important;
+            line-height: 1.176;
+            letter-spacing: 0.02em;
+
+            color: $color-active;
+        }
+    }
 }

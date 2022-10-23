@@ -1,0 +1,49 @@
+.menu__button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    @media screen and (min-width:768px){
+        display: none;
+    }
+}
+.menu-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    @media screen and (max-width: 767px) {
+        display: none;
+        position: fixed;
+        top: 48px;
+        left: 0;
+        background-color: $color-white;
+        width: 100%;
+        height: calc(100vh - 48px);
+        flex-direction: column;
+        padding: 0 40px 48px;
+        gap: 35px;
+        justify-content: space-between;
+        &.is-open{
+            display: flex;
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        width: 66.66666%;
+    }
+    z-index: 1000;
+}
+
+.icon-menu-open {
+    display: block;
+}
+
+.icon-menu-close {
+    display: none;
+}
+
+.menu__button.is-open .icon-menu-open {
+    display: none;
+}
+
+.menu__button.is-open .icon-menu-close {
+    display: block;
+}

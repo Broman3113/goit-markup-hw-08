@@ -5,6 +5,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    padding: 0 15px;
     background: rgba(0, 0, 0, 0.2);
     z-index: 100;
     align-items: center;
@@ -18,14 +19,17 @@
             transform: perspective(800px) rotateX(45deg) !important;
         }
     }
+    z-index: 10000;
 }
 .modal__content{
     position: relative;
-    width: 528px;
     min-height: 581px;
     background-color: $color-white;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transform: perspective(800px) rotateX(0deg);
     transition: transform .25s cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (max-width: 1199px) {
+        max-width: 450px;
+    }
 }

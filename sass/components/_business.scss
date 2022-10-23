@@ -1,3 +1,9 @@
+.business{
+    @media screen and (max-width: 1199px) {
+        display: none;
+    }
+}
+
 .business__title {
     font-weight: 700;
     font-size: 36px;
@@ -11,4 +17,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    img{
+        max-width: 370px;
+    }
 }
